@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Data
 %define	pnam	Locations
-%include	/usr/lib/rpm/macros.perl
 Summary:	Data-Locations perl module
 Summary(pl):	Modu³ perla Data-Locations
 Name:		perl-Data-Locations
 Version:	5.2
-Release:	6
-
+Release:	7
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -21,7 +20,7 @@ Data-Locations - magic insertion points in your data.
 Modu³ perla Data-Locations.
 
 %prep
-%setup -q -n Data-Locations-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
