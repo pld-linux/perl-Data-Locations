@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Data
-%define	pnam	Locations
+%define		pdir	Data
+%define		pnam	Locations
 Summary:	Data::Locations - magic insertion points in your data
 Summary(pl):	Data::Locations - magiczne punkty wstawiania w danych
 Name:		perl-Data-Locations
