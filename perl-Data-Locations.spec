@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Data
 %define	pnam	Locations
-Summary:	Data-Locations perl module
-Summary(pl):	Modu³ perla Data-Locations
+Summary:	Data::Locations perl module
+Summary(pl):	Modu³ perla Data::Locations
 Name:		perl-Data-Locations
 Version:	5.2
 Release:	7
@@ -14,10 +14,10 @@ BuildRequires:	perl >= 5.6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Data-Locations - magic insertion points in your data.
+Data::Locations - magic insertion points in your data.
 
 %description -l pl
-Modu³ perla Data-Locations.
+Modu³ perla Data::Locations.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
