@@ -5,7 +5,7 @@ Summary:	Data::Locations perl module
 Summary(pl):	Modu³ perla Data::Locations
 Name:		perl-Data-Locations
 Version:	5.2
-Release:	7
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
