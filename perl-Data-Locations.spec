@@ -8,14 +8,14 @@
 Summary:	Data::Locations - magic insertion points in your data
 Summary(pl):	Data::Locations - magiczne punkty wstawiania w danych
 Name:		perl-Data-Locations
-Version:	5.2
+Version:	5.3
 Release:	9
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 # note: "5.2-fixed" doesn't work with perl 5.8.2, plain 5.2 does
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	7d592ad82b1acf48747ea00a19c646bf
+# Source0-md5:	386d0681db7601631a005e2ac5e2485e
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
