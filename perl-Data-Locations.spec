@@ -6,7 +6,7 @@
 %define		pdir	Data
 %define		pnam	Locations
 Summary:	Data::Locations - magic insertion points in your data
-Summary(pl):	Data::Locations - magiczne punkty wstawiania w danych
+Summary(pl.UTF-8):   Data::Locations - magiczne punkty wstawiania w danych
 Name:		perl-Data-Locations
 Version:	5.4
 Release:	1
@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Data::Locations - magic insertion points in your data.
 
-%description -l pl
+%description -l pl.UTF-8
 Data::Locations - magiczne punkty wstawiania w danych.
 
 %prep
