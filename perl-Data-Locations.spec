@@ -53,6 +53,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc CHANGES.txt CREDITS.txt README.txt
 %{perl_vendorarch}/Data/Locations.pm
 %dir %{perl_vendorarch}/auto/Data/Locations
-%{perl_vendorarch}/auto/Data/Locations/Locations.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Data/Locations/Locations.so
 %{_mandir}/man3/*
