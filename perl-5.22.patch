@@ -1,0 +1,11 @@
+--- Data-Locations-5.5/t/01________new.t.orig	2009-10-07 23:45:04.000000000 +0200
++++ Data-Locations-5.5/t/01________new.t	2016-01-02 11:16:25.691916371 +0100
+@@ -84,7 +84,7 @@
+     if (ref($loc) eq 'Data::Locations')
+     {print "ok $n\n";} else {print "not ok $n\n";}
+     $n++;
+-    if (defined %{*{$loc}})
++    if (%{*{$loc}})
+     {print "ok $n\n";} else {print "not ok $n\n";}
+     $n++;
+     if (exists ${*{$loc}}{'name'})
