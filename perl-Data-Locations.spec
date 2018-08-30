@@ -9,7 +9,7 @@ Summary:	Data::Locations - magic insertion points in your data
 Summary(pl.UTF-8):	Data::Locations - magiczne punkty wstawiania w danych
 Name:		perl-Data-Locations
 Version:	5.5
-Release:	14
+Release:	15
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
